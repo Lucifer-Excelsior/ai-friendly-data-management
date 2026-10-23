@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "引用时请注明版本或提交；引用不替代依法所需的使用许可。Please cite the version or commit; citation does not replace required permission."
+title: "AI友好的数据管理 / AI-Friendly Data Management"
+authors:
+  - name: "Lucifer-Excelsior"
+    website: "https://github.com/Lucifer-Excelsior"
+version: 0.1.0
+date-released: "2026-10-24"
+url: "https://github.com/Lucifer-Excelsior/ai-friendly-data-management"
+license-url: "https://github.com/Lucifer-Excelsior/ai-friendly-data-management/blob/main/LICENSE.md"
+keywords:
+  - AI-friendly data management
+  - context management
+  - agent memory
+  - data governance
+preferred-citation:
+  type: book
+  title: "AI友好的数据管理 / AI-Friendly Data Management"
+  authors:
+    - name: "Lucifer-Excelsior"
+      website: "https://github.com/Lucifer-Excelsior"
+  version: 0.1.0
+  year: 2026
+  url: "https://github.com/Lucifer-Excelsior/ai-friendly-data-management"
+  notes: "公开共创书稿，项目初始化版本，正文尚未完成。Publicly developed manuscript; initialization version, not a completed book."

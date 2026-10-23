@@ -1,88 +1,80 @@
 # AI友好的数据管理
-## AI-Friendly Data Management
 
-面向全球 AI 爱好者与从业者，共同探索贯穿 AI 全生命周期的数据管理方法。
+**AI-Friendly Data Management**  
+面向训练、推理与智能体全生命周期的原则、方法与实践
 
-**[参与正式讨论 / Join the discussions](https://github.com/Lucifer-Excelsior/ai-friendly-data-management/discussions)**
+[English](README.en.md) · [全书目录](book/README.md) · [连载计划](articles/README.md) · [参与共创](CONTRIBUTING.md) · [讨论区](https://github.com/Lucifer-Excelsior/ai-friendly-data-management/discussions)
 
-## 关于本项目
+> **项目初始化 v0.1.0｜公开共创｜非商业学习许可**  
+> 当前提供项目规则、六篇二十四章的目录建议、写作规范、连载提纲和示例模板。章节正文与宣言仍在编写；目录和候选观点待主编审定。这里没有已经完成的全书或已验证的通用性能承诺。
 
-本项目尝试回答：**怎样组织、提供和维护数据，才能帮助模型与智能体更有效地完成任务，并合理控制时间、成本与维护负担？**
+## 为什么发起这个项目
 
-我们将围绕宣言、概念定义、全生命周期参考框架、实践方法与案例，持续编写和修订《AI友好的数据管理》。欢迎研究者、开发者、数据管理人员、产品人员、实际使用者和学习者共同参与。
+怎样组织、描述、提供、更新和管理数据，才能帮助 AI 更准确地理解任务、更可靠地执行工作，并降低重复劳动、等待时间与使用成本？
 
-## 当前状态
+本项目面向全球 AI 爱好者、从业者、数据管理人员和研究者，围绕这个问题共同整理一部持续更新的实践书。我们希望把方法讲清楚，把结构和案例展示出来，把适用条件与验证依据保留下来，让读者可以学习、试用、质疑和改进。
 
-**内容建设中。** 仓库现阶段用于介绍项目、组织讨论和收集实践问题。宣言、参考框架、书稿正文及配套材料将逐步补充。书稿计划按六篇、二十四章展开，具体目录以仓库后续发布版本为准。
+书稿关注数据如何被 AI 消费，以及 AI 产生的数据如何被后续系统理解和维护。训练样本、知识单元、上下文、工具观察、任务状态、长期记忆和反馈记录，都属于拟讨论的对象。
 
-这里的概念与方法仍在研究和讨论中。尚未验证的判断应保留其假设、适用条件和局限，不直接作为确定结论。
+## 从哪里开始
 
-## 关注的议题
+| 你的目标 | 阅读入口 | 当前状态 |
+| --- | --- | --- |
+| 了解全书范围 | [六篇二十四章](book/README.md) | 初始目录建议 |
+| 了解宣言与首篇文章 | [《AI友好的数据管理：宣言》编辑提纲](articles/README.md) | 待撰写与审定 |
+| 组织一条记忆 | [记忆条目模板](templates/memory-entry.md) | 可改填的设计示例 |
+| 保留决定及其依据 | [决策记录模板](templates/decision-record.md) | 可改填的设计示例 |
+| 准备任务上下文 | [上下文清单](templates/context-pack.md) | 可改填的设计示例 |
+| 查看改造示例 | [新旧项目决定的记忆维护](examples/memory-update/README.md) | 虚构教学示例，未作效果实验 |
+| 提出改进 | [贡献规则](CONTRIBUTING.md)与[社区说明](docs/COMMUNITY.md) | 已提供 |
+| 判断使用范围 | [使用说明](docs/USAGE.md)与[许可正文](LICENSE.md) | 临时许可 v0.1，待专业审核 |
 
-- **训练与适配：** 数据选择、准备、标注、版本与质量如何服务具体目标。
-- **推理与知识获取：** 数据如何被发现、检索、理解，并作为回答的依据。
-- **智能体应用：** 工具描述、任务状态、过程记录与协作信息如何组织。
-- **上下文管理：** 什么信息应在什么时候进入上下文，如何评估作用与成本。
-- **记忆管理：** 什么值得长期保存，如何记录来源、处理冲突、更新与遗忘。
-- **评测与持续改进：** 如何从任务结果和失败案例中识别数据问题，验证改进效果。
+## 全书结构
 
-## 怎样参与
+初始结构为**六篇二十四章**，具体章目与范围以[目录](book/README.md)为准：
 
-**不会编程也可以参与。** 提问、纠错、提出反例、分享成功或失败经验、补充参考资料、改善文字和翻译，都是有价值的贡献。
+1. **定义、原则与参考框架**：工作定义、宣言、生命周期与评价方法。
+2. **数据获取、组织与治理**：来源、语义、多模态关联、质量、权限与版本。
+3. **训练、适配与评测数据**：预训练、微调、偏好与合成数据、评测集。
+4. **检索、推理与上下文**：知识准备、证据供给、输入输出契约与上下文管理。
+5. **智能体与分层记忆**：任务状态、工具记录、记忆组织与记忆维护。
+6. **持续优化、退役与落地**：反馈、变更验证、数据退出与组织实践。
 
-请尽量让一个帖子围绕一个主要问题，说明：**具体场景、问题或观点、相关证据，以及希望讨论的事项。**
+各环节可以反复迭代。使用现有模型的应用可以不进行模型训练；质量、来源、权限、版本、责任和成本需要贯穿所选路径。
 
-- **Questions／问题与答疑：** 理解概念、方法选择和应用问题。
-- **Proposals／框架与书稿建议：** 提议修改定义、框架或章节内容。
-- **Practice／实践与案例：** 分享真实场景、方法、观察结果和局限。
-- **Announcements／项目公告：** 查看维护者发布的更新与说明。
+## 怎样判断一种方法值得采用
 
-明确的错漏可以通过 Issue 提出；希望直接修改书稿，可以提交 Pull Request。中文和英文均可使用，欢迎为重要讨论补充另一语言的摘要。
+每章拟围绕“场景与问题—失败方式—管理原则—参考结构—操作步骤—案例—验证—适用边界”展开。主张应说明所面向的任务、数据和约束。
 
-采纳的改进将通过仓库更新记录，并尽可能关联原讨论与贡献者。
+我们区分参考资料支持的事实、作者提出的建议、待检验假设、教学示例和实际实验结果。未执行的实验不能写成已取得的收益。Markdown 是可用的表达载体之一，格式选择仍应服务于任务和数据特征。具体要求见[写作指南](docs/WRITING_GUIDE.md)。
 
-## 社区入口
+## GitHub 与媒体连载
 
-| 入口 | 用途 |
-| --- | --- |
-| [GitHub Discussions](https://github.com/Lucifer-Excelsior/ai-friendly-data-management/discussions) | 正式讨论、框架建议、问题答疑与实践案例 |
-| [本仓库](https://github.com/Lucifer-Excelsior/ai-friendly-data-management) | 书稿、框架、材料与版本记录 |
-| Discord | 尚未开放；可用后将在此公布入口 |
+GitHub 持续维护完整书稿、模板、示例、依据和变更记录。公众号等媒体围绕具体问题提供独立完整的方法文章，并链接到对应章节与材料。
 
-## 使用与贡献说明
+首篇拟为**《AI友好的数据管理：宣言》**，依次说明目的与价值、工作定义、价值主张、全生命周期参考框架、全书更新计划。当前仅有[编辑提纲](articles/README.md)，未作为审定文章发表。官方公众号和其他媒体入口确认后再登记，当前不提供未经核实的账号或邀请链接。
 
-本项目用于学习、交流和协作完善。作者计划限制商业利用，以及基于本项目成果申请专利、发表论文、出版书籍等再利用；相关用途请事先取得作者书面许可。具体授权条款将在仓库中另行发布，本项目目前未采用标准开源许可证。
+## 参与共创
 
-请分享你有权公开的材料，为引用资料提供来源，并保留原作者与贡献者署名。参与讨论不代表将他人的材料自动授权给本项目。
+- 用 [Issues](https://github.com/Lucifer-Excelsior/ai-friendly-data-management/issues) 报告明确错误、失效链接或可执行的改进。
+- 用 [Discussions](https://github.com/Lucifer-Excelsior/ai-friendly-data-management/discussions) 讨论定义、方法、反例和实践问题。中文、英文均可。
+- 用 Pull Request 提交经过核对的修改；大幅调整先说明问题和依据。
+- 有价值的贡献包括纠错、引用核查、失败案例、实验复现、模板改进和翻译。
 
----
+提交前请阅读[贡献规则](CONTRIBUTING.md)。贡献者保留其依法享有的权利，项目在约定范围内编辑、整合与免费传播，并记录贡献。公开渠道请勿提交个人敏感信息、客户资料、商业秘密或无权公开的内容。
 
-## English
+## 使用许可
 
-**AI-Friendly Data Management** is an evolving knowledge project for AI enthusiasts and practitioners worldwide. We explore how to organize, provide, and maintain data to help models and agents complete tasks effectively, while considering time, cost, and maintenance effort.
+本项目采用[自定义临时学习与共创许可 v0.1](LICENSE.md)。它为阅读、下载、符合条件的非商业原样分享和项目共创提供明确授权；商业利用，以及依法需要许可的论文、书籍、专利申请文件等成果中的受保护表达再利用，需另行授权。法定例外、适当引用和独立研究不受影响。
 
-### Status and scope
+这是公开共创的内容项目，不使用 MIT、Apache 或标准 CC 许可，不声明符合 OSI 的开源定义。第三方材料保留各自适用的规则。简明场景说明见[使用说明](docs/USAGE.md)，正式范围以许可正文为准。
 
-**Content is under development.** A manifesto, definitions, lifecycle reference framework, manuscript, and practical materials will be published progressively. The planned manuscript has six parts and twenty-four chapters; the current outline will be maintained in this repository.
+## 项目状态与引用
 
-Topics include training and adaptation, inference and knowledge retrieval, agent applications, context management, memory management, evaluation, and continuous improvement. Assumptions, evidence, limitations, and unresolved questions should be made explicit.
+- 当前版本：**v0.1.0，项目初始化**。
+- 写作路线：[ROADMAP](docs/ROADMAP.md)。
+- 重要变更：[CHANGELOG](CHANGELOG.md)。
+- 贡献记录：[CONTRIBUTORS](CONTRIBUTORS.md)。
+- 引用元数据：[CITATION.cff](CITATION.cff)。引用时请注明具体版本或提交，引用说明不替代使用授权。
 
-### Participate
-
-**No coding experience is required.** Ask a question, propose an improvement, share a case, contribute references, or help with writing and translation. Include the context, the question or claim, supporting evidence, and what you want to discuss.
-
-Use **Questions** for questions, **Proposals** for framework or manuscript improvements, and **Practice** for cases and experiments. **Announcements** contains maintainer updates. Use Issues for concrete errors and Pull Requests for proposed edits.
-
-Chinese and English are welcome. Accepted improvements will be recorded through repository updates, with links to relevant discussions and contributors where possible.
-
-### Community
-
-- [GitHub Discussions](https://github.com/Lucifer-Excelsior/ai-friendly-data-management/discussions)
-- [Project repository](https://github.com/Lucifer-Excelsior/ai-friendly-data-management)
-- **Discord:** Not yet open. The link will be published here when available.
-
-### Use and contributions
-
-This project is intended for learning, discussion, and collaborative improvement. The author intends to restrict commercial use and reuse of project results in patent applications, academic publications, and books. Please obtain the author's prior written permission for these uses. Formal licensing terms will be published separately; no standard open-source license has been adopted at this stage.
-
-Share only material you are permitted to make public, cite sources, and preserve attribution. Participation does not automatically grant the project rights to third-party material.
+维护者：[Lucifer-Excelsior](https://github.com/Lucifer-Excelsior)。
