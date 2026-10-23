@@ -1,0 +1,26 @@
+name: "纠错 / Correction"
+description: "报告事实、逻辑、术语、格式或链接问题。Report a specific problem."
+title: "[纠错] "
+body:
+  - type: markdown
+    attributes:
+      value: "感谢帮助完善本书。此处公开，请不要上传私密或无权公开的材料。"
+  - type: input
+    id: location
+    attributes:
+      label: "位置 / Location"
+      description: "文件路径、章节、版本或具体链接。"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "问题 / Problem"
+      description: "说明现有内容为什么有误或容易产生误解。"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "依据与建议 / Evidence and suggestion"
+      description: "提供公开来源、反例或修改建议；标明尚未验证的部分。"
