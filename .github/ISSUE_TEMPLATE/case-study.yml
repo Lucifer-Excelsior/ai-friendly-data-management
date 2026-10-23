@@ -1,0 +1,33 @@
+name: "案例或复现 / Case or replication"
+description: "提出可公开的实践案例、反例或复现结果。"
+title: "[案例] "
+body:
+  - type: markdown
+    attributes:
+      value: "请先确认材料可以公开。拟收入书稿的内容需按 CONTRIBUTING.md 明确授权。"
+  - type: textarea
+    id: task
+    attributes:
+      label: "任务与场景 / Task and context"
+      description: "希望改善什么，适用范围是什么？"
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: "数据管理方法 / Data management change"
+      description: "原来的组织方式、改动和预期作用。"
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: "验证与局限 / Validation and limitations"
+      description: "注明教学示例、建议或实际实验；实测请说明环境、基线、数据、结果与失败情形。"
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: "来源与公开权限 / Sources and sharing rights"
+      description: "只提供可公开信息。无法确认权限时先概述问题，不上传原始材料。"
