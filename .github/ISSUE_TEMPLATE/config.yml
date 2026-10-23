@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "方法讨论 / Discussions"
+    url: "https://github.com/Lucifer-Excelsior/ai-friendly-data-management/discussions"
+    about: "讨论定义、原则、问题和反例。Questions, proposals and counterexamples."
+  - name: "使用与授权 / Usage and permissions"
+    url: "https://github.com/Lucifer-Excelsior/ai-friendly-data-management/blob/main/docs/USAGE.md"
+    about: "先查看使用范围与授权申请说明。Read the usage guide first."
